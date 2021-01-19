@@ -1,0 +1,15 @@
+{
+"nome": "Jardim sinistro",
+"pontos": 100,
+"mapa": [
+{"aposento": "portao", "fantasma": 0, "ligacoes": ["entrada", "fonte", "cemiterio"]},
+{"aposento": "fonte", "fantasma": 15, "ligacoes": ["portao", "arvore torta","arbusto esquesito"]},
+{"aposento": "cemiterio", "fantasma": 5, "ligacoes": ["portao", "lago verde", "estatua do vampiro"]},
+{"aposento": "arvore torta", "fantasma": 12, "ligacoes": ["fonte","lago verde"]},
+{"aposento": "arbusto esquesito", "fantasma": 0, "ligacoes": ["fonte", "estatua do vampiro"]},
+{"aposento": "lago verde", "fantasma": 15, "ligacoes": ["cemiterio", "arvore torta", "exterior"]},
+{"aposento": "estatua do vampiro", "fantasma": 0, "ligacoes": ["cemiterio", "arbusto esquesito", "labirinto das arvores"]},
+{"aposento": "labirinto das arvores", "fantasma": 10, "ligacoes": ["estatua do vampiro", "exterior", "cemiterio","casa do frankenstein"]}
+{"aposento": "casa do frankenstein", "fantasma": 30, "ligacoes": ["exterior"]}
+]
+} 
